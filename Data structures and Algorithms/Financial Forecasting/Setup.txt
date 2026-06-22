@@ -1,0 +1,13 @@
+Suppose:
+
+Current value = ₹10,000
+Annual growth rate = 10%
+Forecast period = 5 years
+
+Future value can be calculated recursively as:
+
+Future Value(n) = Future Value(n-1) × (1 + growthRate)
+
+Base Case:
+
+Future Value(0) = Current Value

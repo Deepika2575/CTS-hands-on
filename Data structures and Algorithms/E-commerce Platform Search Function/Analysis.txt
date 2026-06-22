@@ -1,0 +1,31 @@
+| Search Algorithm | Best Case | Average Case | Worst Case |
+| ---------------- | --------- | ------------ | ---------- |
+| Linear Search    | O(1)      | O(N)         | O(N)       |
+| Binary Search    | O(1)      | O(log N)     | O(log N)   |
+
+Comparison
+Linear Search
+Searches one element at a time.
+Does not require sorted data.
+Simple to implement.
+Slow for large datasets.
+Binary Search
+Requires sorted data.
+Repeatedly divides the search space into halves.
+Much faster for large datasets.
+Efficient for e-commerce platforms with thousands or millions of products.
+Suitable Algorithm for E-commerce Platform
+
+Binary Search is more suitable because:
+
+Product databases are usually large.
+Search operations are frequent.
+Time complexity is O(log N) instead of O(N).
+Faster response improves user experience.
+
+For example, with 1,000,000 products:
+
+Linear Search may require up to 1,000,000 comparisons.
+Binary Search requires only about 20 comparisons.
+
+Hence, Binary Search is the preferred choice for fast product searching in an e-commerce platform.

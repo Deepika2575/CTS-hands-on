@@ -1,0 +1,24 @@
+Time Complexity
+
+Let n be the number of years.
+
+The recursive method makes one recursive call for each year.
+
+T(n) = T(n-1) + O(1)
+
+Therefore:
+
+Time Complexity = O(n)
+
+Space Complexity = O(n)
+
+because each recursive call occupies space on the call stack.
+
+Best, Average, and Worst Case
+
+Since recursion executes exactly n times:
+| Case         | Complexity |
+| ------------ | ---------- |
+| Best Case    | O(n)       |
+| Average Case | O(n)       |
+| Worst Case   | O(n)       |

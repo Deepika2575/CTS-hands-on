@@ -1,0 +1,12 @@
+What is Recursion?
+
+Recursion is a programming technique where a method calls itself to solve a smaller version of the same problem until a base condition is reached.
+
+A recursive solution consists of:
+
+Base Case: Stops the recursion.
+Recursive Case: Calls the same method with a smaller problem.
+Benefits of Recursion
+Makes code shorter and easier to understand.
+Useful for problems that can be divided into smaller subproblems.
+Commonly used in tree traversal, divide-and-conquer algorithms, and mathematical computations.

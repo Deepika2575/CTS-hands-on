@@ -1,0 +1,32 @@
+Big O Notation
+
+Big O notation describes how the running time of an algorithm grows as the input size (N) increases.
+
+Examples:
+
+O(1) → Constant time
+O(log N) → Logarithmic time
+O(N) → Linear time
+O(N²) → Quadratic time
+
+It helps us:
+
+Measure algorithm efficiency.
+Compare different algorithms.
+Predict performance for large datasets.
+Search Operation Cases
+Best Case
+
+The element is found immediately.
+
+Example:
+
+Searching first element in linear search.
+Searching middle element in binary search.
+Average Case
+
+The element is found somewhere in the middle of the data.
+
+Worst Case
+
+The element is at the end or not present.
